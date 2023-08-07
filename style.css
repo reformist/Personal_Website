@@ -1,0 +1,58 @@
+/*  Reset Default margin and padding for all elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and text color to the body */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a9a3a3; /* light grey background */
+    color: #1b1616;
+}
+
+/* style he header section */
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem; /* add padding around the header */
+}
+
+/* style the main content container */
+.container{
+    max-width: 800px; /* max width */
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.about, .interests, .projects {
+    margin-bottom: 2rem;
+}
+/* Style Headings */
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+}
+/* Style Paragraphs */
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+/* Style Links */
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
