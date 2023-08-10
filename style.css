@@ -9,15 +9,33 @@
 /* Apply a background color and text color to the body */
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #a9a3a3; /* light grey background */
+    font-family: Verdana, sans-serif;
+    background-color: #D7D3C2; /* light grey background */
     color: #1b1616;
+}
+
+nav {
+    background-color: #648DE5; /* sets background color*/
+    overflow: hidden; /* Clear the floats */
+}
+
+nav a {
+    float: left; /*Float the navigation links to he left */
+    display: block; /* display as block elements */
+    color: white; /*text color for links */
+    text-align: center;
+    padding: 14px 16px; /* adds padding for spacing */
+    text-decoration: none; /* removes underline */
+}
+
+nav a:hover{
+    background-color: #555;
 }
 
 /* style he header section */
 
 header {
-    background-color: #333;
+    background-color: #3A405A;
     color: #fff;
     text-align: center;
     padding: 1rem; /* add padding around the header */
@@ -56,3 +74,12 @@ a {
 a:hover{
     text-decoration: underline;
 }
+
+/* .profile-image {
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+} */
