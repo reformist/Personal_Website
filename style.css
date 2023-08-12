@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    background-color: #648DE5; /* sets background color*/
+    background-color: #3A405A; /* sets background color*/
     overflow: hidden; /* Clear the floats */
 }
 
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover{
-    background-color: #555;
+    background-color: #3A405A;
 }
 
 /* style he header section */
@@ -83,3 +83,25 @@ a:hover{
     transform: translate(-50%, -50%);
     padding: 10px;
 } */
+
+.resume-download-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+.resume-download-icon {
+            margin-right: 5px;
+        }
+
+.resume-download-button:hover {
+            background-color: #2980b9;
+        }
