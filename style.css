@@ -88,7 +88,7 @@ a:hover{
             display: inline-flex;
             align-items: center;
             padding: 10px 20px;
-            background-color: #3498db;
+            background-color: #687199; /* 687199 */
             color: white;
             text-decoration: none;
             border: none;
@@ -98,10 +98,27 @@ a:hover{
             transition: background-color 0.3s ease;
         }
 
+.cv-download-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #687199; /* 687199 */
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+.cv-download-button:hover{
+    background-color: #505779;
+}
+
 .resume-download-icon {
             margin-right: 5px;
         }
 
 .resume-download-button:hover {
-            background-color: #2980b9;
+            background-color: #505779;
         }
